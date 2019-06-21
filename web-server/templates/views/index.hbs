@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	{{!-- <link rel="stylesheet" type="text/css" href="/css/style.css"> --}}
+
+</head>
+
+<body>
+
+{{!-- render partial --}}
+{{>header}}
+
+		
+		<p>{{text}}</p>
+
+
+		<p>Use this site to get your weather!</p>
+		
+		<form>
+			<input placeholder="Location">
+			<button>Search</button>
+		</form>
+		</div>
+
+	
+<div id ='results'>
+<h2 id="location"></h2>
+
+<p id="forecast">
+</p>
+
+</div>
+
+{{>footer}}
+	<script src="/js/app.js"></script>
+
+</body>
+
+</html>
