@@ -1,4 +1,4 @@
-/*const path = require('path');
+const path = require('path');
 const express = require('express');
 const chalk = require('chalk');
 const hbs = require('hbs');
@@ -101,4 +101,3 @@ app.listen(port, () => {
 	console.log(chalk.green(`Server is up and running on port ${port}!`));
 
 });
-*/
